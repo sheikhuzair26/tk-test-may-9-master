@@ -1,0 +1,96 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+
+.logo {
+    width: 135px;
+    height: 79px;
+}
+
+ul li {
+    float: right;
+    list-style: none;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+ul {
+    margin-top: -80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.firstsection {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 95px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.fa-star {
+    color: #f7b733;
+}
+
+i.fas.fa-star-half-alt {
+    color: #f7b733;
+}
+
+.article {
+    border-bottom: 1px;
+    height: 131px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    margin-top: -41px
+}
+
+.d1 {
+    padding: 30px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.d2 {
+    padding: 0 20px 0 0;
+}
+
+#btn {
+    text-align: center;
+    color: white;
+    background: #f2849e;
+    padding: 1em 5em;
+}
+
+#btn:hover {
+    background-color: #ed4b74;
+}
+
+.para {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    margin-bottom: 20px;
+}
+
+.para2 {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
