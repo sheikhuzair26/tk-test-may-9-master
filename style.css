@@ -1,0 +1,209 @@
+/* Write your CSS below. Try to make i/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo img {
+    height: 100px;
+    line-height: 50px;
+    font-size: px;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:540px) {
+    header {
+        padding: 0 1px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    header nav ul li a {
+        display: none;
+    }
+    .aside img {
+        width: 200px;
+        height: 330px;
+        display: flex;
+        align-content: flex-end;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: grey;
+        border-top-width: 20px;
+        border-bottom-width: 20px;
+    }
+    .firstsection {
+        display: flex;
+    }
+    .para {
+        display: flex;
+    }
+    .para2 {
+        display: flex;
+    }
+}
+
+.firstsection {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 95px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.fa-star {
+    color: #f7b733;
+}
+
+i.fas.fa-star-half-alt {
+    color: #f7b733;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px;
+    height: 160px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    margin-top: -45px
+}
+
+.article h1 {
+    margin-bottom: -15px;
+}
+
+.aside img {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: grey;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+}
+
+.d1 {
+    padding: 30px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.d2 {
+    padding: 0 20px 0 0;
+}
+
+#btn {
+    text-align: center;
+    color: white;
+    background: #f2849e;
+    padding: 1em 5em;
+}
+
+#btn:hover {
+    background-color: #ed4b74;
+}
+
+.hr {
+    border-bottom-style: solid;
+    height: 35px;
+    border-bottom-color: lightgrey;
+    border-bottom-width: 1px;
+}
+
+.para {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    text-align: justify;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.para2 {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.para2 div {
+    margin-bottom: 10px;
+}
+
+.last {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.author {
+    font-size: 19px;
+}
+
+.last p {
+    padding: 0px 15px;
+}
